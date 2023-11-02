@@ -1,0 +1,41 @@
+<html>
+        <head>
+		<title>flex</title>
+		<style>
+		.parent{
+		display:flex;
+		background-color:green;
+		justify-content:space-evenly;
+		align-items:center;
+		height:400px;
+		}
+		.child{
+		background-color:skyblue;
+		font-size:100px;
+		pading:10px;
+		margin:20px;
+		border-radius:20px;
+		}
+		.child:hover{
+		color:purple;
+		background-color:yellow;
+		text-decoration:underline;
+		}
+		
+		#one{
+		order:3;
+		flex-shrink:20;
+		align-self:center;
+		}
+		
+		</style>
+		</head>
+		<body>
+		<div class="parent">
+		<p id="one" class="child">one</p></a>
+		<p class="child">two</p></a>
+		<p class="child">three</p>
+		<p class="child">four</p>
+		
+		</body>
+</html>
